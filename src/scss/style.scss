@@ -1,0 +1,13 @@
+// Custom warna
+
+$dongo: #673bb7;
+$muwani: #fff;
+
+// Tambahkan warna kustom ke theme colors
+$theme-colors: (
+    "dongo": $dongo,
+    "muwani": $muwani
+);
+
+// Impor Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
